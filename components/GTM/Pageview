@@ -1,0 +1,6 @@
+export const VirtualPageView = (rest) => {
+  window.dataLayer?.push({
+    event: 'VirtualPageView',
+    ...rest,
+  });
+};
